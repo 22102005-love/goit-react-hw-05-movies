@@ -1,0 +1,32 @@
+.link {
+  composes: link;
+  color: #2196f3;
+  cursor: pointer;
+}
+:hover.link {
+  color: rgb(236, 104, 104);
+}
+.button {
+  padding: 5px 10px;
+  background-color: rgb(224, 221, 221);
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+}
+:hover.button {
+  background-color: #c3dff7;
+}
+.movieDetailWrapper {
+  display: flex;
+  padding-top: 20px;
+}
+.informationWrapper {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+.informationPoint {
+  font-size: 20px;
+  font-weight: 400;
+}
